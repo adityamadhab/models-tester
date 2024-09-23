@@ -22,7 +22,7 @@ export const ImageUpload = () => {
             data-tooltip-id="launch-tooltip"
           >
             <FaRocket className="text-xl" />
-            Launch App
+            View Models
           </Link>
           <Tooltip id="launch-tooltip" place="top" effect="solid">
             Click to explore our Models!
