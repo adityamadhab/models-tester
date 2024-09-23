@@ -49,22 +49,22 @@ export const Header = () => {
           </Link>
           <Link to="/support" className="text-black px-3 py-2 rounded hover:text-[#16423C] font-bold">
             Support
-          </Link> 
+          </Link>
         </nav>
       </div>
       {isOpen && (
         <div className="md:hidden">
           <nav className="flex text-right flex-col space-y-2 p-4">
-            <Link to="/about" onClick={closeMenu} className="text-black px-3 py-2 rounded hover:text-yellow-500 font-bold">
+            <Link to="/about" onClick={closeMenu} className="text-black px-3 py-2 rounded hover:text-[#16423C] font-bold">
               About
             </Link>
-            <Link to="/model" className="text-black px-3 py-2 rounded hover:text-yellow-500 font-bold">
+            <Link to="/model" onClick={closeMenu} className="text-black px-3 py-2 rounded hover:text-[#16423C] font-bold">
               Models
             </Link>
-            <Link to="/faq" onClick={closeMenu} className="text-black px-3 py-2 rounded hover:text-yellow-500 font-bold">
+            <Link to="/faq" onClick={closeMenu} className="text-black px-3 py-2 rounded hover:text-[#16423C] font-bold">
               FAQ
             </Link>
-            <Link to="/support" onClick={closeMenu} className="text-black px-3 py-2 rounded hover:text-yellow-500 font-bold">
+            <Link to="/support" onClick={closeMenu} className="text-black px-3 py-2 rounded hover:text-[#16423C] font-bold">
               Support
             </Link>
           </nav>
